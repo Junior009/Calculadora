@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+body{
+    align-items: center;
+    background-color: #fff;
+    text-align: center;
+    color: teal;
+}
+
+
+.btn{
+    width: 70px;
+    height: 70px;
+    
+    border: none;
+    font-size: 1.5rem;
+    background-color: rgb(221, 221, 221);
+    cursor: pointer;
+    border: 1px solid rgb(173, 173, 173);
+}
+.btn:hover{
+    background-color: rgb(187, 186, 186);
+}
+ 
+#btn_equal{
+    background-color: green;
+    color: white;
+    border-bottom-right-radius: 20px;
+}
+#btn_c{
+    border-top-left-radius:20px ;
+}
+#btn_sub{
+    border-top-right-radius: 20px;
+}
+#btn_dot{
+    border-bottom-left-radius: 20px;
+}
+
+#btn_sub,#btn_div,#btn_mult,#btn_soma,#btn_c,#btn_percent,#btn_parenteses{
+    color:rgb(5, 78, 78);
+    font-weight: bolder;
+    background-color: rgb(166, 175, 166);
+    border: 1px solid rgb(133, 130, 130);
+}
+
+.txt{
+    width: 300px;
+    height: 60px;
+    border: none;
+    background-color: black;
+    
+    color: #fff;
+    font-size: 3rem;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#calc{
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /*background-color: rgb(198, 216, 216);*/
+    background: linear-gradient(teal,black);
+
+}
+
+#calc form{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#calc #teclas{
+    width: 300px;
+    height: 60vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid teal;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#teclas #numeros,#numeros2,#numeros3,#operadores{
+  
+    display: flex;
+    flex-direction: column;
+   
+  
+}
+ #tec{
+     width: 300px;
+     height: 40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: honeydew;
+    color: teal;
+    border-left: 1px solid teal;
+    border-right: 1px solid teal;
+}
+
+#tec .top_btn{
+    border: none;
+    color: teal;
+    background-color: honeydew;
+}
+
+#teclas #operadores { 
+color: teal;
+}
+
+/*----------------*/
+.output{
+    width: 245px;
+    height: 50px;
+    padding: 30px;
+    background-color: black;
+    color:#fff;
+    border-radius: 20px 20px 0 0;
+    
+}
+
